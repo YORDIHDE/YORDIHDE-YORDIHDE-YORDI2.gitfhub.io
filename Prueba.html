@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caramelos Medicinales - Portafolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: green;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    nav li {
+      display: inline-block;
+      position: relative;
+      margin-right: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      background-color: #333;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #3498db;
+      transform: scale(1.1);
+    }
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #333;
+      border-radius: 8px;
+      padding: 10px 0;
+    }
+    .submenu li {
+      display: block;
+      margin: 0;
+    }
+    .submenu a {
+      color: white;
+      padding: 10px 20px;
+      display: block;
+      text-align: left;
+    }
+    .submenu a:hover {
+      background-color: #10f0b1;
+    }
+    nav li:hover .submenu {
+      display: block;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Caramelos Medicinales</h1>
+    <nav>
+      <ul>
+        <li><a href="ept1.html">Inicio</a></li>
+        <li><a href="ept2.html">Acerca de</a></li>
+        <li><a href="ept3.html">Servicios</a></li>
+        <li>
+          <a href="ept4.html">Portafolio</a>
+          <ul class="submenu">
+            <li><a href="resfrio.html">Resfrío</a></li>
+            <li><a href="malestar_digestivo.html">Malestar digestivo</a></li>
+          </ul>
+        </li>
+        <li><a href="ept5.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Portafolio de Caramelos Medicinales</h2>
+    <p>Explora nuestros productos destacados enfocados en tu salud.</p>
+  </main>
+
+  <footer>
+    <p>Caramelos Medicinales &copy; 2024</p>
+  </footer>
+
+</body>
+</html>
